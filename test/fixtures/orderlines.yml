@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  delivery_address: MyString
+  delivery_date: 2016-04-20 14:17:49
+  remarks: MyText
+  deposit_slip_status: MyString
+
+two:
+  delivery_address: MyString
+  delivery_date: 2016-04-20 14:17:49
+  remarks: MyText
+  deposit_slip_status: MyString

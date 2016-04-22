@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Delivery address:</strong>
+  <%= @orderline.delivery_address %>
+</p>
+
+<p>
+  <strong>Delivery date:</strong>
+  <%= @orderline.delivery_date %>
+</p>
+
+<p>
+  <strong>Remarks:</strong>
+  <%= @orderline.remarks %>
+</p>
+
+<p>
+  <strong>Deposit slip status:</strong>
+  <%= @orderline.deposit_slip_status %>
+</p>
+
+<%= link_to 'Edit', edit_orderline_path(@orderline) %> |
+<%= link_to 'Back', orderlines_path %>
