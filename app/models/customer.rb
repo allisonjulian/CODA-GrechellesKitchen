@@ -5,6 +5,8 @@ class Customer < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
 
 
+  acts_as_orderer
+
   has_many :orders
   has_many :products
   has_many :orderlines

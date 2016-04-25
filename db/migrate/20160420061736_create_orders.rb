@@ -4,7 +4,7 @@ class CreateOrders < ActiveRecord::Migration
       t.integer :tracking_id
       t.timestamp :order_date
       t.decimal :total_bill
-
+      t.decimal	:total
       t.timestamps null: false
     end
   end

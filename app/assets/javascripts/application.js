@@ -17,3 +17,5 @@
 
 //= require jquery
 //= require bootstrap-sprockets
+
+//= require piggybak/piggybak-application
